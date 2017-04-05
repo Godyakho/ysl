@@ -1,0 +1,103 @@
+.ctnbox{
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 120px;
+    color: white;
+    background: black;
+}
+.title{
+    font-size: 54px;
+    text-align: center;
+}
+.ctnbox>h2{
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 6px;
+}
+.ctnbox>img{
+    margin: 15px auto 0;
+    display: block;
+}
+.title-list{
+    color: white;
+    font-size: 30px;
+    background: url(../images/pen_line_long.png) no-repeat 0 58px;
+    height: 60px;
+    position: relative;
+}
+
+.list-ctn{
+    width: 1130px;
+    padding-top: 40px;
+    overflow: hidden;
+}
+.ctnone{
+    width: 246px;
+    height: 370px;
+    float: left;
+    background: #fff;
+    padding: 36px 0 0 20px;
+    margin: 0 108px 40px 0;
+    border: 1px solid #fff;
+    cursor: pointer;
+    position: relative;
+}
+.ctnone:hover{
+    border-color: #86759e;
+    transform: translateY(-6px);
+    transition: all 0.3s ease 0s;
+}
+.ctnoneimg{
+    margin-top: -15px;
+    margin-left: 10px;
+     height: 267px;
+    width: 202px;
+    overflow: hidden;
+    float: left;
+}
+.ctnoneimg img{
+    height: 267px;
+    width: 202px;
+}
+.ctn-text{
+    float: left;
+    width: 221px;
+    color: #454548;
+    text-align: center;
+}
+.ctn-text .title-small{
+    font-family: Segoe UI Light;
+    font-size: 20px;
+    color: white;
+    line-height: 26px;
+    max-height: 53px;
+    overflow: hidden;
+    padding-top: 15px;
+
+}
+.date{
+    font-family: Arial;
+    color: #6b6a6f;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.ctn-text>p{
+    padding-top: 8px;
+    color: #47464a;
+    line-height: 25px;
+    max-height: 75px;
+    overflow: hidden;
+    font-family: KaiTi_GB2312;
+}
+.ctnbox img:nth-of-type(2){
+    margin: 30px auto 0;
+    display: block;
+}
+.list-more{
+    width: 58px;
+    height: 58px;
+    background: url("../images/lis_more_btn_bg.png") no-repeat 0 -58px;
+    margin: 15px auto 130px;
+    cursor: pointer;
+}

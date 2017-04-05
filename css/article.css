@@ -1,0 +1,69 @@
+.content{
+    width: 780px;
+    margin:0 auto;
+    min-height: 800px;
+    background: white;
+    padding: 70px 160px 220px 160px;
+    color:black;
+}
+.title{
+    text-align: center;
+    font-size: 54px;
+}
+.content>h2{
+    font-size: 18px;
+    font-weight:normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    letter-spacing: 6px;
+    color: black;
+}
+
+.title-list{
+    color: black;
+    font-size: 30px;
+    background: url("../images/pen_line_long.png") no-repeat -320px 58px;
+    height: 60px;
+    margin-top: 70px;
+}
+.auther{
+    color: black;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.articleimg{
+    float: left;
+    margin-bottom: 35px;
+}
+.article-con{
+    margin-top: 90px;
+    float: left;
+}
+.like{
+    clear: both;
+    margin-top: 80px;
+    margin-left: 350px;
+    width: 73px;
+    height: 73px;
+    overflow: hidden;
+}
+.likebtn{
+    width: 73px;
+    height: 73px;
+    float: left;
+    background: url("../images/article_iflike.png") no-repeat;
+    cursor: pointer;
+}
+.liketips{
+    width: 135px;
+    height: 35px;
+    float: left;
+    margin-left: 5px;
+    background: url(../images/article_iflike_nomberbg.png) no-repeat;
+    margin-top: 19px;
+    padding-top: 8px;
+    color: #fff;
+    text-align: center;
+    padding-left: 5px;
+}

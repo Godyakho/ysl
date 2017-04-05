@@ -1,0 +1,613 @@
+.ban-box {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.arrowbox{
+    width: 216px;
+    height: 59px;
+    position: absolute;
+    left: 50%;
+    margin-left: -108px;
+    bottom: 20px;
+    z-index: 999;
+}
+
+.arrowbox.teamarrowbox{
+    bottom: 20px;
+}
+
+.ban-btn div {
+    width: 29px;
+    height: 29px;
+    background: url("../images/prev_jiantou.png") no-repeat;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+
+.ban-btn .next {
+    background: url("../images/next_jiantou.png") no-repeat;
+    right: 0;
+}
+.ban-btn .team-connect-next{
+    background: url("../images/next_jiantou.png") no-repeat;
+    right: 0;
+}
+
+.arrowcontent {
+    height: 14px;
+    position: absolute;
+    left: 50%;
+    margin-left: -23px;
+    top: 7px;
+}
+.arrowcontent div {
+    float: left;
+    width: 6px;
+    height: 14px;
+    background: url("../images/next&prev_mbg01.png") no-repeat;
+}
+
+.arrowcontent .middle {
+    width: 33px;
+    background: url("../images/next&prev_mbg02.png");
+}
+.arrowcontent .team-connect-middle{
+    width: 58px;
+    background: url("../images/next&prev_mbg02.png");
+}
+.arrowcontent .r {
+    background: url("../images/next&prev_mbg03.png") no-repeat;
+}
+.arrowcontent .team-connectr{
+    background: url("../images/next&prev_mbg03.png") no-repeat;
+}
+.arrowcontent .middle span {
+    width: 6px;
+    height: 6px;
+    display: block;
+    float: left;
+    background: url("../images/next&prev_others.png");
+    margin-top: 4px;
+    margin-right: 7px;
+    cursor: pointer;
+}
+.arrowcontent  .team-connect-middle span{
+    width: 6px;
+    height: 6px;
+    display: block;
+    float: left;
+    background: url("../images/next&prev_others.png");
+    margin-top: 4px;
+    margin-right: 7px;
+    cursor: pointer;
+}
+
+.arrowcontent .middle :last-child {
+    margin-right: 0;
+}
+.arrowcontent .team-connect-middle :last-child {
+    margin-right: 0;
+}
+.arrowcontent .middle .now {
+    background: url("../images/next&prev_now.png");
+}
+.arrowcontent .team-connect-middle .now {
+    background: url("../images/next&prev_now.png");
+}
+.bannner{
+    position: relative;
+}
+.ban{
+    position: absolute;
+    top:0;
+    width: 100%;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.b1 {
+    z-index: 1;
+    background: url("../images/ban1.jpg") center no-repeat;
+}
+
+.b2 {
+    background: url("../images/ban2.jpg") center no-repeat;
+    display: none;
+}
+
+.b3 {
+    background: url("../images/ban3.jpg") center no-repeat;
+    display: none;
+}
+
+.prev:hover {
+    background: url("../images/prev_jiantou_hover.png");
+    animation:su-pudding 1s linear 0s normal none 1 running ;
+}
+
+.next:hover {
+    background: url("../images/next_jiantou_hover.png");
+    animation:su-pudding 1s linear 0s normal none 1 running ;
+}
+
+
+.ban-chanpin {
+    width: 1100px;
+    margin: 35px auto 0px;
+    position: relative;
+    overflow: hidden;
+}
+.ban-chanpin > img {
+    display: block;
+    margin: 0 auto
+}
+
+.ban-chanpin>img:nth-of-type(1){
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.ban-chanpin > h1 {
+    margin-top: 60px;
+    line-height: 60px;
+}
+
+.ban-chanpin > h1, .ban-chanpin > h2 {
+    text-align: center;
+    font-family: STKaiti;
+    font-size: 45px;
+    color: white;
+}
+.content-wrap {
+    height: 540px
+}
+.now-line {
+    float: left;
+    margin-right: 51px;
+    margin-top: 22px;
+    width: 19px;
+    height: 380px;
+    background: url("../images/chanpin_nowline_bgline.png") repeat-y 9px 20px;;
+}
+.now-line div{
+    margin-bottom: 63px;
+    height: 11px;
+
+}
+.now-line div i{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 11px;
+    height: 11px;
+    background: url("../images/chanpin_nowline_xiaoquan.png")no-repeat 0px 0px;
+}
+.now-line div i:hover{
+    background: white 0 11px;
+    border-radius: 5px;
+    transition: background 0.5s ease 0s;
+}
+
+.now-line div i span{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    left:-4px;
+    top:-4px;
+    display:none;
+   background: white;
+    border-radius: 9px;
+}
+.now-line .i-now span{
+    display: block;
+}
+.content {
+    width: 1020px;
+    float: left;
+    display: none;
+}
+.con-now{
+    display: block;
+}
+.connect-l{
+    float: left;
+}
+
+
+
+
+.connect-l img{
+    width: 370px;
+    height: 436px;
+}
+.connect-r{
+    width: 613px;
+    height: 450px;
+    float: right;
+}
+.connect-r h1{
+    color: white;
+    font-size: 30px;
+    background: url("../images/pen_line.png") no-repeat left bottom;
+    height: 60px;
+    position: relative;
+    font-family: STKaiti;
+}
+
+.body-top{
+    height: 101px;
+    margin: 35px 0 90px 10px;
+}
+.body-top>img{
+    float: left;
+    margin-right: 25px;
+    margin-top: 5px
+}
+.body-top>p{
+
+    line-height:29px;
+    font-size: 15px;
+}
+.body-mid>div{
+    width: 29px;
+    height: 29px;
+}
+.body-mid{
+    position: absolute;
+    top:80%;
+    right: 15px;
+    height: 29px;
+    width: 610px;
+    background: url("../images/next&prev_line.png") repeat-x left center;
+
+}
+.body-mid-l{
+    float: left;
+     background: url("../images/prev_jiantou.png");
+ }
+.body-mid-l:hover{
+    background: url("../images/prev_jiantou_hover.png");
+    animation:su-pudding 1s linear 0s normal none 1 running ;
+}
+.body-mid-r{
+    float: right;
+    background: url("../images/next_jiantou.png");
+
+}
+.body-mid-r:hover{
+    background: url("../images/next_jiantou_hover.png");
+    animation:su-pudding 1s linear 0s normal none 1 running ;
+}
+.body-bot{
+    clear: both;
+}
+.tips{
+    float: right;
+    width: 140px;
+    margin-top: 20px;
+}
+.tips>img:nth-of-type(1){
+margin-left: -15px;
+}
+.tips>img:nth-of-type(2){
+    float: right;
+}
+.ban-jianjie{
+    background: url("../images/mokuai02_bg.jpg") no-repeat top center;
+    height: 923px;
+    min-width: 1100px;
+}
+.jianjie{
+    padding-top: 50px;
+}
+.ywcontent{
+    border-bottom: 2px dashed #e0e0e2;
+    margin-bottom: 54px;
+}
+.ywcontent-top{
+    height: 116px;
+    margin-bottom: 66px;
+}
+.ywcontent-top>*{
+    float: left;
+}
+.ywcontent-num{
+    width: 148px;
+    font-size: 90px;
+    color: #b5b6ba;
+    font-family: "宋体";
+}
+.ywcontent-title{
+    text-align: center;
+    width: 285px;
+    padding-top: 31px;
+}
+.ywcontent-title p{
+    margin-top: 10px;
+}
+.ywcontent-title h1 {
+    color: white;
+    font-size: 24px;
+    font-weight: normal;
+}
+.ywcontent-topimg img{
+    margin: 0 44px 0 59px;
+    cursor: pointer;
+    width: 116px;
+    height: 116px;
+}
+.ywcontent-top-description{
+    width: 320px;
+    margin: 20px 60px 0 0;
+    font-family: KaiTi_GB2312;
+    line-height: 24px;
+}
+.ywcontent-top-description p{
+    margin-top: -20px;
+}
+.xiangxi{
+    height: 67px;
+    width: 67px;
+    background: url("../images/business_zhankaishouqi.png");
+    cursor: pointer;
+    margin-top: 22px;
+    transition: all 0.5s ease 0s;
+}
+.xiangxi-hover{
+    background: url("../images/business_zhankaishouqi.png")0px -67px;
+}
+.ywcontent-bot{
+    padding-bottom: 30px;
+    width: 790px;
+    margin-left: 180px;
+    font-family: KaiTi_GB2312;
+    line-height: 24px;
+    display: none;
+}
+.team-connect{
+    position: relative;
+    height: 430px;
+    overflow: hidden;
+}
+.team-connect-prev:hover{
+    background: url("../images/prev_jiantou_hover.png");
+    animation:su-pudding 1s linear 0s normal none 1 running ;
+}
+.team-connect-next:hover{
+    background: url("../images/next_jiantou_hover.png");
+    animation:su-pudding 1s linear 0s normal none 1 running ;
+}
+.teammove-box{
+    position: relative;
+    width: 1100px;
+    height: 250px;
+    padding-top: 64px
+}
+.teammove-box .teammove{
+    width: 2260px;
+    height: 250px;
+    position: absolute;
+    left:0;
+}
+.teammove2box{
+    width: 1130px;
+    float: left;
+    height: 314px;
+}
+.teammove1box{
+    width: 532px;
+    height: 188px;
+    border: 1px solid #e0e1e5;
+    position: relative;
+    float: left;
+    margin-right: 30px;
+}
+.headingimg{
+    position: absolute;
+    top: -65px;
+    left: 26px;
+    width: 156px;
+    height: 156px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.teamname{
+    width: 222px;
+    height: 80px;
+    text-align: center;
+    color: #5f4c82;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 24px
+}
+.teamdescription {
+    width: 246px;
+    height: 80px;
+    position: absolute;
+    top: 24px;
+    left: 220px;
+    color: #565559;
+    line-height: 24px;
+    font-size: 16px;
+}
+.teamemail{
+    height: 45px;
+    width: 246px;
+    position: absolute;
+    bottom: 20px;
+    left: 220px;
+    background: #e7e8ec;
+    border: 1px solid #e0e1e5;
+    cursor: pointer;
+}
+.teamemail a i{
+    float: left;
+    width: 45px;
+    height: 45px;
+    background: #d9d9e1 url("../images/team_contact.png") 12px 17px no-repeat;
+}
+.teamemail a span{
+    float: left;
+    line-height: 45px;
+    text-align: center;
+    color: #5f4c82;
+    font-size: 16px;
+    width: 200px;
+}
+.headingimg a{
+    width: 156px;
+    height: 156px;
+    background: url("../images/team_amore.png");
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.headingimg:hover a{
+    opacity: 0.8;
+    transition: all ease 0.5s;
+}
+.inputbox{
+    width: 345px;
+    height: 45px;
+    background: #fff;
+    border: 1px solid #dedfe3;
+    margin-bottom: 27px;
+    float: left;
+    margin-right: 27px;
+
+}
+.inputbox i{
+    float: left;
+    width: 45px;
+    height: 45px;
+    background: #e7e8ec url("../images/lianxi_icons.png") 13px 14px no-repeat;
+}
+.inputbox input{
+    border: none;
+    outline: none;
+    float: left;
+    line-height: 45px;
+    height: 45px;
+    color: #5f4c82;
+    font-size: 16px;
+    width: 268px;
+    padding-left: 18px;
+    font-family: STKaiti, KaiTi_GB2312, "华文楷体", "宋体", Arial, Helvetica;
+}
+.tarea{
+    height: 210px;
+    width: 720px;
+    margin-right: 39px;
+}
+.tarea i{
+    height: 210px;
+}
+.tarea textarea{
+    float: left;
+    line-height: 27px;
+    color: #5f4c82;
+    font-size: 16px;
+    width: 640px;
+    padding-right: 17px;
+    height: 200px;
+    border: none 0;
+    text-align: left;
+    padding-left: 18px;
+    padding-top: 10px;
+    outline: none;
+    resize: none;
+    font-family: STKaiti, KaiTi_GB2312, "华文楷体", "宋体", Arial, Helvetica;
+}
+.state{
+    color: #7f7d83;
+    height: 86px;
+    width: 338px;
+    float: left;
+}
+.leavemessage{
+    width: 333px;
+    margin-right: 0;
+    background: #168bcb;
+    border-color: #2999d6;
+    cursor: pointer;
+}
+.leavemessage i{
+    background-color: #2999d6;
+    background-position: -179px 14px;
+}
+.leavemessage span{
+    padding-left: 18px;
+    float: left;
+    width: 200px;
+    color: white;
+    text-align: center;
+    line-height: 47px;
+}
+.hezuo{
+    background: #fff;
+}
+.cooperation{
+    float: left;
+}
+.cooperationbox{
+    width: 545px;
+    height: 370px;
+    border-right: 1px solid #ccc;
+}
+.cooperation>h1,.cooperation>h2{
+    font-size: 33px;
+    color:  #311759;
+    font-family: STKaiti;
+}
+.cooperation h1 i{
+    margin-top: 10px;
+    float: right;
+    display: block;
+    width: 69px;
+    height: 26px;
+    background: url("../images/yonghu_morebg.png")-69px 0px;
+}
+.cooperation h1 i:hover{
+    background-position: 0 0;
+    transition: all ease 0.5s;
+}
+.cooperationbox>div{
+    background:#fff;
+    height: 185px;
+    float: left;
+    width: 156px;
+    line-height: 17;
+}
+.divl>div{
+    padding-left:73px;
+    width: auto;
+}
+.wayone{
+    width: 345px;
+    height: 250px;
+    float: left;
+    margin-top: 50px;
+}
+.wayone img{
+    float: left;
+    margin-top: 20px;
+}
+.wayconnect{
+    float: left;
+    margin-left: 27px;
+    color: white;
+}
+.wayconnect>h1{
+    line-height: 60px;
+    height: 60px;
+    width: 210px;
+    background: url("../images/lianxi_kuaier_bg.png") no-repeat bottom left;
+    color: white;
+    margin-bottom: 14px;
+}

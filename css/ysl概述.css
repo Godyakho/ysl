@@ -1,0 +1,365 @@
+.headerbox{
+    overflow: hidden;
+    height: 50px;
+    width: 100%;
+    min-width:1100px;
+    background:black;
+}
+.head{
+    width: 1180px;
+    height: 50px;
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+    margin-top: 5px;
+}
+.headnav{
+    float: right;
+    width: 900px;
+    margin: 0px 15px;
+    height: 25px;
+    line-height: 25px;
+    padding-top: 11px;
+    text-align: right;
+    color: white;
+}
+.headnav .now>h1{
+    background: url("../images/nav_now_bg.png") no-repeat bottom center;
+}
+.headnav>div{
+    float: left;
+}
+.headnav h1{
+    font-size: 16px;
+    text-align: center;
+    padding: 0 15px;
+    position: relative;
+    cursor: pointer;
+    height: 30px;
+    color: white;
+}
+.headnav h1:hover{
+    background:url("../images/nav_now_bg.png") no-repeat bottom center;
+    color: #fff;
+    transition: all 0.5s ease 0s;
+}
+.connectbox{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.connect{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.mu{
+    width: 100%;
+}
+.mokuai1{
+    min-width: 1100px;
+    background-color:gray;
+    color: #fff;
+}
+.mokuai1>p{
+    text-align: center;
+}
+.mokuai1 p:nth-of-type(2){
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 4px;
+}
+.mokuai1 p:nth-of-type(3){
+    font-size: 20px;
+    margin-top: 20px;
+}
+.mokuai1 p:nth-of-type(4){
+    font-size: 20px;
+ }
+.imgxiaoniao{
+    width: 750px;
+    height: 300px;
+    margin:0 auto;
+    background: url("../images/logo-footer.png")no-repeat 0px 125px;
+}
+.ems{
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+}
+.ems span{
+    font-size: 48px;
+}
+
+.donext{height: 58px;
+    width: 58px;
+    background: url("../images/aboutxiaoniao/donext.png") 0 -58px no-repeat;
+    margin: 15px auto 0;
+    cursor: pointer;
+}
+.donext:hover{
+    background: url("../images/aboutxiaoniao/donext.png") 0 0 no-repeat;
+    transition: all ease 0.5s;
+}
+.mokuai2{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-width: 1100px;
+}
+
+.mk2box{
+    width:6000px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: gray;
+}
+.mokuai2l{
+    width: 100vw;
+    text-align: center;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+.mokuai2m{
+    width: 100vw;
+    height: 100%;
+    float: left;
+    background: url("../images/ROUGE_PUR_LP_V2_03.jpg");
+}
+.mokuai2r{
+    width: 100vw;
+    height: 100%;
+    float: left;
+    background: url("../images/cushion_20161017_01.jpg");
+}
+.mokuai2l>h1{
+    color: white;
+    font-size: 48px;
+    text-align: center;
+}
+.ems img:nth-of-type(1){
+    position: absolute;
+    left: 433px;
+    top: -3px;
+}
+.ems img:nth-of-type(2){
+    position: absolute;
+    right: 425px;
+    top: 40px;
+}
+.mokuai2 .ems{
+    color: white;
+    width: 630px;
+    line-height: 30px;
+    margin: 20px auto 0;
+    position: relative;
+}
+.mokuai2ctn{
+    text-align: center;
+}
+.mokuai2ctn>img{
+    width: 250px;
+    height: 379px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.mokuai2arrow{
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    top: 50%;
+    margin-top: -29px;
+    cursor: pointer;
+}
+.l{
+    z-index: 9;
+    left: 60px;
+    background: url("../images/aboutxiaoniao/goleft.png");
+}
+.r{
+    z-index: 9;
+    right:60px;
+    background: url("../images/aboutxiaoniao/goright.png")-58px 0px;
+}
+
+.mokuai3{
+    min-width: 1100px;
+    background:gray;
+    color: #fff;
+}
+.mokuai3>h1{
+    padding-top: 25px;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.breathlight-top{
+    margin: 10px 200px;
+    height: 20px;
+}
+.breathlight-top div{
+    float: left;
+    height: 20px;
+    width: 20px;
+    position: relative;
+}
+
+.breathlight-top div img{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.mokuai3ctn{
+    height: 317px;
+    width: 850px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.mkctn{
+    float: left;
+    width: 390px;
+    margin-right: 30px;
+    margin-bottom: 46px;
+}
+.mkctnnum{
+    width: 74px;
+    height: 74px;
+    background: url("../images/aboutxiaoniao/jiazhi_quanquan.png") no-repeat;
+    line-height: 74px;
+    text-align: center;
+    margin-right: 27px;
+    font-size: 15px;
+    float: left;
+    font-family: Arial
+}
+.mkctn>p{
+    float: left;
+    width: 280px;
+    font-size: 18px;
+    margin-top: 13px;
+}
+.mokuai4{
+    position: relative;
+}
+.mk4box{
+    width: 910px;
+    height: 560px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -280px 0 0 -455px;
+}
+.mk4box>h1{
+    font-size: 54px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+.mk4ctnbox{
+    height: 420px;
+    width: 910px;
+    overflow: hidden;
+    position: relative;
+}
+.mk4ctn{
+    width: 1820px;
+    height: 420px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all ease 0.5s;
+}
+.mk4ctn>div{
+    width: 910px;
+    float: left;
+    line-height: 36px;
+    background: url("../images/aboutxiaoniao/xuxian_bg.png");
+    font-size: 16px;
+    font-family: KaiTi_GB2312;
+    color: #535355;
+}
+.btnbox{
+    width: 204px;
+    height: 8px;
+    margin: 0 auto;
+}
+.btnbox>div{
+    float: left;
+    margin: 0 12px;
+    width: 78px;
+    height: 8px;
+    border-radius: 4px;
+    background: url("../images/aboutxiaoniao/xiaoniaoyun_btn.png") no-repeat 0 -8px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+.btnblue{
+    background: url("../images/aboutxiaoniao/xiaoniaoyun_btn.png") no-repeat 0 0;
+    position: absolute;
+    top: 0;
+    left: -78px;
+    width: 78px;
+    height: 8px;
+    transition: all 0.5s ease 0s;
+}
+.mokuai5{
+    position: relative;
+    background: gray;
+}
+.mokuai5img{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    width: 728px;
+    height: 128px;
+    background: url("../images/logo-footer.png") ;
+}
+.erweima{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top:50%;
+    left:45%;
+}
+.welcome{
+    width: 100%;
+    min-width: 1100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    z-index: 999;
+    padding-top: 50px;
+    color: #fff;
+}
+.wlctn{
+    width: 1100px;
+    margin:0 auto;
+    text-align: center;
+    position:relative;
+    top:20%;
+    overflow: hidden;
+}
+.wlctn p:nth-of-type(2){
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 4px;
+}
+.wlctn p:nth-of-type(3){
+    margin-top:20px;
+    font-size: 20px;
+}
+.wlctn p:nth-of-type(4){
+    font-size: 20px;
+}
+.wlctn>p{
+    display: none;
+}
+.wlctn>div{
+    display: none;
+}

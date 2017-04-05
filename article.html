@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/articleData.js"></script>
+    <link rel="stylesheet" href="css/article.css">
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+<div id="head"></div>
+
+
+
+<div class="content">
+    <h1 class="title" id="typeTitle">企业文化</h1>
+    <h2 id="typeEntitle">company culture</h2>
+    <h1 class="title-list" id="articleTitle">公司理念</h1>
+    <div class="auther">
+        <span id="updateTime">2016-02-19 16:02:42.0</span>
+        &nbsp;&nbsp;
+        <span id="author">管理员</span>
+    </div>
+    <div class="article">
+        <div class="articleimg"><img src="images/article_image05.jpg" alt="" id="cover"></div>
+        <div class="article-con" id="content"></div>
+    </div>
+
+
+</div>
+
+
+<div id="foot"></div>
+</body>
+<script>
+    var GLOBAL = GLOBAL || {};
+    $(function () {
+        $('#head').load('header.html')
+        $('#foot').load('footer.html')
+
+
+        GLOBAL.articlType = getUrlParams("type");
+        GLOBAL.articleId = getUrlParams("articleId");
+
+
+
+        loadArticleDetail();
+
+    })
+
+
+
+    function loadArticleDetail(){
+        //先ajax请求数据，然后就行下面的操作，此处数据先写好在了articleData.js里，可以直接使用，格式和服务器返回的json一致。
+        if(getUrlParams("type")){
+            var result = articleData[getUrlParams("type")+getUrlParams("articleId")]; //此数据在articleData.js里
+            $("#typeTitle").html(result.data.typeTitle);
+            $("#typeEntitle").html(result.data.typeEntitle);
+            $('#articleTitle').text(result.data.title);
+            $('#updateMony').text(result.data.updateAt);
+            $('#cover').attr("src",result.data.coverImg);
+            $('#author').text(result.data.creatByFullName);
+            $('#content').html(result.data.content);
+        }
+
+    }
+
+    //获取页面url传过来的参数
+    function getUrlParams(name){
+        var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if(r!=null)
+            return  r[2];
+        else
+            return "";
+    }
+</script>
+</html>

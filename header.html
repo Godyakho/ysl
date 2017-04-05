@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/head.css">
+</head>
+<body>
+<div class="box">
+    <div class="nav">
+        <div></div>
+        <div>
+            <ul>
+                <li style="background:url(images/nav_now_bg.png)center 28px no-repeat">
+                    <h1 onclick="window.open('index.html','_self')">首页</h1>
+                </li>
+                <li>
+                        <h1 onclick="window.open('ysl概述.html','_self')">yslbeaut</h1>
+                    <img src="images/nav_xiajiantou.png" alt="">
+                   <ul class="nav-ul">
+                       <li onclick="window.open('ysl概述.html','_self')">主页</li>
+                       <li onclick="window.open('ysl概述.html#1')">概述</li>
+                       <li onclick="window.open('ysl概述.html#2')">产品展示</li>
+                       <li onclick="window.open('ysl概述.html#3')">产品介绍</li>
+                       <li onclick="window.open('ysl概述.html#4')">二维码</li>
+                       <li onclick="window.open('ysl概述.html#5')">联系客服</li>
+                   </ul>
+                </li>
+                <li><h1 onclick="window.open('ysl动态.html?type=ysl','_self')">最新产品</h1></li>
+                <li>
+                    <h1>企业文化</h1>
+                    <img src="images/nav_xiajiantou.png" alt="">
+                    <ul class="nav-ul">
+                        <li onclick="window.open('article.html?type=companyIdea')">公司理念</li>
+                        <li onclick="window.open('article.html?type=companyCulture')">公司文化</li>
+                        <li onclick="window.open('article.html?type=companyEnvironment')">公司氛围</li>
+                    </ul>
+                </li>
+                <li>
+                    <h1>人力资源</h1>
+                    <img src="images/nav_xiajiantou.png" alt="">
+                    <ul class="nav-ul">
+                        <li onclick="window.open('article.html?type=talents')">人才理念</li>
+                        <li onclick="window.open('article.html?type=team')">团队介绍</li>
+                    </ul>
+                </li>
+                <li><h1 onclick="window.open('article.html?type=telUs')">联系我们</h1></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/move.js"></script>
+<script>
+    $(function(){
+    $('.nav div:nth-of-type(2)>ul>li').hover(function(){
+        $(this).children('.nav-ul').stop().slideDown(600,'elasticOut');
+        $(this).children('img').attr('src','images/nav_xiajiantou_hover.png')
+
+    },function(){
+        $(this).children('.nav-ul').stop().slideUp(100);
+        $(this).children('img').attr('src','images/nav_xiajiantou.png')
+    })
+    })
+</script>
+</html>
